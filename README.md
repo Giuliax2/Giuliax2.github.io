@@ -231,21 +231,6 @@ Anchor links with section IDs:
 
 ---
 
-## Performance Optimizations
-
-### Loading Strategy
-- CDN-hosted Bootstrap and Popper.js
-- External CSS files for better caching
-- Lazy loading for embedded map iframe
-- Minimal JavaScript for fast load times
-
-### CSS Animations
-- GPU-accelerated transforms
-- `will-change` property where needed
-- Optimized keyframe animations
-
----
-
 ## Accessibility Features
 
 ### User Experience
@@ -295,19 +280,6 @@ Anchor links with section IDs:
 - Managing z-index for proper layering
 - Ensuring smooth backface visibility
 - Making cards responsive across devices
-
----
-
-## Future Enhancements
-
-### Potential Additions
-- Backend integration for actual bookings
-- Email confirmation system
-- Menu items from database
-- Customer reviews section
-- Photo gallery
-- Online ordering capability
-- Multi-language support (Italian/English)
 
 ---
 
