@@ -1,5 +1,51 @@
+---
+marp: true
+theme: default
+paginate: true
+backgroundColor: #ffffff
+style: |
+  /* Configurazione Colori e Font */
+  section {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #002d5f; /* Blu Notte per il testo */
+    background: linear-gradient(to bottom registration, #ffffff 0%, #f0f9ff 100%);
+  }
+  
+  /* Titoli in Grassetto */
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #0047AB; /* Blu scuro */
+  }
+
+  h1 { border-bottom: 4px solid #0ea5e9; padding-bottom: 10px; }
+  h2 { color: #0ea5e9; } /* Azzurro */
+  
+  strong {
+    color: #0047AB;
+    font-weight: bold;
+  }
+
+  footer {
+    font-size: 14px;
+    color: #0ea5e9;
+  }
+
+  code {
+    background: #e0f2fe;
+    color: #0047AB;
+    border-radius: 5px;
+    padding: 2px 5px;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+---
+
 # Divino Caffè Website
-## A Modern Coffee Shop Experience
+## A Modern Coffee Shop Experience 
 
 *By Giulia Ferraro*
 
@@ -167,7 +213,6 @@ function validateField(field) {
 ---
 
 ## Success Modal
-
 ### User Feedback
 After successful form submission:
 - Modal overlay appears with fade-in animation
@@ -267,62 +312,3 @@ Anchor links with section IDs:
 
 **Copyright:** © 2026 Divino Caffe' by Giulia Ferraro
 
----
-
-## Challenges Overcome
-
-### 1. Form Validation
-- Implementing real-time validation without libraries
-- Handling different input types with specific rules
-- Creating smooth error state transitions
-
-### 2. 3D Flip Cards
-- Managing z-index for proper layering
-- Ensuring smooth backface visibility
-- Making cards responsive across devices
-
----
-
-## Lessons Learned
-
-### Technical Skills
-- Advanced CSS animations and transforms
-- Form validation best practices
-- Responsive design patterns
-- JavaScript event handling
-
-### Design Principles
-- User-centered design approach
-- Importance of visual feedback
-- Mobile-first thinking
-- Consistency in styling
-
----
-
-## Project Statistics
-
-### Code Breakdown
-- **HTML:** ~200 lines
-- **CSS:** ~400+ lines
-- **JavaScript:** ~100+ lines
-
-### Features Implemented
-- 6 main sections
-- 1 booking form with 8 fields
-- 6 interactive menu cards
-- 1 embedded map
-- Custom animations
-- Full responsive design
-
----
-
-## Demo Highlights
-
-### Key Interactions to Test
-1. Hover over menu cards (flip animation)
-2. Submit booking form with invalid data
-3. Submit valid booking (see success modal)
-4. Resize browser window (responsive layout)
-5. Navigate using menu links
-6. Observe animated title and buttons
-7. Click social media icons
